@@ -1,5 +1,3 @@
-import { Metadata } from "next";
-
 export interface IParams {
   params: {
     productId: string;
@@ -24,19 +22,19 @@ export const generateMetadata = ({ params }: IParams): Metadata => {
  */
 
 // Method -> 3
-export const generateMetadata = async ({
-  params,
-}: IParams): Promise<Metadata> => {
-  const title = await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(`iphone ${params.productId}`);
-    }, 1000);
-  });
+// export const generateMetadata = async ({
+//   params,
+// }: IParams): Promise<Metadata> => {
+//   const title = await new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(`iphone ${params.productId}`);
+//     }, 1000);
+//   });
 
-  return {
-    title: `Product ${title}`,
-  };
-};
+//   return {
+//     title: `Product ${title}`,
+//   };
+// };
 
 const Product = ({ params }: IParams) => {
   return (

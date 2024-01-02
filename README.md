@@ -27,6 +27,13 @@ export const metadata: Metadata = {
 };
 ```
 
+```tsx
+export const metadata: Metadata = {
+  title: "Single Product",
+  description: "Product description",
+};
+```
+
 #### Method -> 2
 
 ```tsx
@@ -66,5 +73,17 @@ export const generateMetadata = async ({
   return {
     title: `Product ${title}`,
   };
+};
+```
+
+## Title Metadata
+
+```tsx
+export const metadata: Metadata = {
+  title: {
+    absolute: "", // If you want to use only this title without using any template then use absolute. usually, it is used on the page.tsx
+    default: "", // suppose you didn't add metadata on the page.tsx then working on it.
+    template: "%s | Next.js 14 Metadata", // if you add metadata to the page then that metadata replaces %s And other parts of the template will go with it.
+  },
 };
 ```
