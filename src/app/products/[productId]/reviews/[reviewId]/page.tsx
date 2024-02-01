@@ -15,7 +15,7 @@ const Review = ({
   const random = getRandomNumber();
   console.log("🚀 ~ random:", random);
 
-  if (random !== 1) {
+  if (random === 1) {
     throw new Error("Invalid random number");
   }
 
