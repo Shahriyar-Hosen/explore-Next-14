@@ -1,4 +1,4 @@
-# Metadata
+![Parallel-Route](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/4008601e-e4cc-4c9f-bff6-367d5708909e)# Metadata
 
 ## Routing Metadata
 
@@ -96,11 +96,11 @@ export const metadata: Metadata = {
 
 An error.tsx file will handle errors for all its nested child segments
 
-THe Error boundary does not catch errors thrown here because it's nested inside the layouts components
+The error boundary does not catch errors thrown here because it's nested inside the layout components
 
 ## Parallel Routes
 
-<!-- img ⬆️👆🏻 -->
+![Parallel-Route](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/5e3a596c-c372-432e-bda4-b83f587c1796)
 
 ### Parallel Routes contd
 
@@ -109,7 +109,7 @@ THe Error boundary does not catch errors thrown here because it's nested inside 
 - To define a slot, we use the `@folder` naming convention
 - Each slot is passed as a prop to its corresponding `layout.tsx` file.
 
-<!-- scend img -->
+![scend](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/f09a1e71-c748-4604-b857-22abb42d723c)
 
 ### Parallel Routes Benefits
 
@@ -123,10 +123,13 @@ Each slot of your layout, such as user analytics or revenue metrics, can have it
 
 This granular control is particularly beneficial in scenarios where different sections of the page load at varying speeds or encounter unique errors.
 
-<!-- Independent Route Handling contd img -->
+![Independent route handling contd](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/4f7278fb-dfc4-4705-bea6-3903c57a836d)
+
 
 ### Sub-navigation in routes
 
 Each slot of your dashboard can essentially function as a mini-application, complete with its own navigation and state management.
 
 This is especially useful in a complex application such as our dashboard where different sections serve distinct purposes.
+
+![Sub-navigation in routes contd](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/1456330d-3ad0-4826-9352-f8d0f3b75d0e)
