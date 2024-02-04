@@ -9,6 +9,7 @@ const Card: FC<PropsWithChildren> = ({ children }) => {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    color: "white",
   };
 
   return <div style={cardStyle}>{children}</div>;
