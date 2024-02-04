@@ -135,11 +135,11 @@ This is especially useful in a complex application such as our dashboard where d
 
 ## Unmatched Routes
 
-### <u>Navigation from the UI</u>
+### Navigation from the UI
 
 In the case of navigation within the UI, Next.js retains the previously active state of a slot regardless of changes in the URL.
 
-### <u>Page reload</u>
+### Page reload
 
 Next.js immediately searches for a _default.tsx_ file within each unmatched slot.
 
