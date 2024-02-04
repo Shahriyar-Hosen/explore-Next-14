@@ -97,3 +97,36 @@ export const metadata: Metadata = {
 An error.tsx file will handle errors for all its nested child segments
 
 THe Error boundary does not catch errors thrown here because it's nested inside the layouts components
+
+## Parallel Routes
+
+<!-- img ⬆️👆🏻 -->
+
+### Parallel Routes contd
+
+- parallel routes in Next.js are defined using a feature known as slots.
+- Slots help structure our content in a modular fashion
+- To define a slot, we use the `@folder` naming convention
+- Each slot is passed as a prop to its corresponding `layout.tsx` file.
+
+<!-- scend img -->
+
+### Parallel Routes Benefits
+
+A clear benefit of parallel routes is their ability to split a single layout into various slots, making the code more manageable.
+
+##### Independent route handling **sub-navigation**
+
+### Independent Route Handling
+
+Each slot of your layout, such as user analytics or revenue metrics, can have its own loading and error states.
+
+This granular control is particularly beneficial in scenarios where different sections of the page load at varying speeds or encounter unique errors.
+
+<!-- Independent Route Handling contd img -->
+
+### Sub-navigation in routes
+
+Each slot of your dashboard can essentially function as a mini-application, complete with its own navigation and state management.
+
+This is especially useful in a complex application such as our dashboard where different sections serve distinct purposes.
