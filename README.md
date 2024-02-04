@@ -1,4 +1,4 @@
-![Parallel-Route](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/4008601e-e4cc-4c9f-bff6-367d5708909e)# Metadata
+# Metadata
 
 ## Routing Metadata
 
