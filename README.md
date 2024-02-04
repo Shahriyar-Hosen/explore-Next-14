@@ -157,4 +157,4 @@ The `default.tsx` file in Next.js serves as a fallback to render content when th
 
 You have complete freedom to define the UI for unmatched routes: **you can either mirror the content found in page.tsx or craft an entirely custom view**
 
-**_Make sure all content are same as page.tsx_**
+**_`Make sure all content are same as page.tsx`_**
