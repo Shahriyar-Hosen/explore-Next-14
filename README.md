@@ -1,4 +1,4 @@
-![Component Hierarchy](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/6ff9fca4-a4b0-4a2e-81d3-5f7e04d5d463)# Metadata
+# Metadata
 
 ## Routing Metadata
 
@@ -88,5 +88,12 @@ export const metadata: Metadata = {
 };
 ```
 
+## Component Hierarchy
 
 ![Component Hierarchy](https://github.com/Shahriyar-Hosen/explore-Next-14/assets/96829173/188a962e-5b2b-4580-bca4-5e662522aba8)
+
+### Handling Errors in Layouts
+
+An error.tsx file will handle errors for all its nested child segments
+
+THe Error boundary does not catch errors thrown here because it's nested inside the layouts components
