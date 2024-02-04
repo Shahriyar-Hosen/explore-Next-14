@@ -1,7 +1,9 @@
-const Loading = () => {
+import { FC } from "react";
+
+const Loading: FC = () => {
   return (
     <div>
-      <h1>Loading </h1>
+      <h1>Loading... 🔃🔃🔃</h1>
     </div>
   );
 };
