@@ -1,7 +1,9 @@
+"use client";
+
 import { notFound } from "next/navigation";
 
 const getRandomNumber = () => {
-  return Math.floor(Math.random() * (10 - 0) + 0);
+  return Math.floor(Math.random() * (2 - 0) + 0);
 };
 
 const Review = ({
@@ -13,7 +15,7 @@ const Review = ({
   };
 }) => {
   const random = getRandomNumber();
-  console.log("🚀 ~ random:", random);
+  // console.log("🚀 ~ random:", random);
 
   if (random === 1) {
     throw new Error("Invalid random number");
